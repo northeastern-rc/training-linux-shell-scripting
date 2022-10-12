@@ -23,7 +23,7 @@ ls
 # Check how many rows each file has with the “wc -l” utility:
 echo "Number of lines in file mobydick.txt:"
 wc -l mobydick.txt
-echo "How many rows each of the remainig files has:"
+echo "How many rows each of the remaining files has:"
 wc -l x*
 
 # Split the file moby-dick.txt into 4 files, label the output files numerically rather than alphabetically, set the number of digits to 1, and have a prefix of “part-”. i.e:part-1 , part-2, part-3, part-4:

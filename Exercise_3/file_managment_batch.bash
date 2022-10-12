@@ -8,7 +8,7 @@
 #SBATCH --output=ex3.out
 #SBATCH --error=ex3.err
 
-## This script demonstrates basic file managment autmation. The script will create 4 directories, and will create 4 files inside those directories.
+## This script demonstrates basic file management automation. The script will create 4 directories, and will create 4 files inside those directories.
 
 # Define your work directory, and enter it:
 my_work_dir=$PWD

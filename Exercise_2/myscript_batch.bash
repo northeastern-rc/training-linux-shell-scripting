@@ -12,7 +12,6 @@
 
 ## use the mobydick.txt file from Exercise 1 to select all lines that contain the word "Mountains". Use the '>' operator to print the output lines into a new file:
 grep "Mountains" ../Exercise_1/mobydick.txt > mobydick.Lines-with-Mountains.txt
-#grep "Mountains" ~/training-linux-shell-scripting/Exercise_1/mobydick.txt > mobydick.Lines-with-Mountains.txt
 
 ## print the file contents into the standard output file:
 echo "Lines with Mountains:" 
