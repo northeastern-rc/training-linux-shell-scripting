@@ -25,7 +25,7 @@ row_num=$1
 # output to the 'awk' utility which will print the first argument:
 rows_file_length=`wc -l ${rows_file} | awk '{print $1}'` 
 
-# Check if $row_num is a valid number (using use a regular expression) and smaller than number of lines in $rows_file:
+# Check if $row_num is a valid number (using a regular expression) and smaller than number of lines in $rows_file:
 if ! [[ "$row_num" =~ ^[0-9]+$ ]] || [[ $row_num -gt $rows_file_length ]]; then
 	echo "error: Input argument is not a number, or greater than $rows_file_length" >&2; exit 1
 fi
