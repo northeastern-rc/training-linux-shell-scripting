@@ -1,5 +1,14 @@
 #!/bin/bash
+
+####Use during training####
+#SBATCH --partition=reservation
+#SBATCH --reservation=bootcamp_cpu_2023
+## Reservation bootcamp_cpu_2023 will not be available after bootcamp
+#######################################
+####Use after training####
 #SBATCH --partition=express
+#######################################
+
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --job-name=divide_and_split_files
