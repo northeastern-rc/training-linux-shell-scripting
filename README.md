@@ -1,4 +1,5 @@
 # training-linux-shell-scripting
+#Summer-2023
 This repository contains material for the Introduction to Linux and Shell scripting training modules.
 
 ## What's in each training sub-folder?
