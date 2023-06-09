@@ -6,7 +6,8 @@
 ## Reservation bootcamp_cpu_2023 will not be available after bootcamp
 #######################################
 ####Use after training####
-#SBATCH --partition=express
+##SBATCH --partition=express
+####Remove 1 # from the above sbatch command
 #######################################
 
 #SBATCH --nodes=1
