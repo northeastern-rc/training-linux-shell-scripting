@@ -7,7 +7,7 @@
 #######################################
 ####Use after training####
 ##SBATCH --partition=express
-####Remove 1 # from the above sbatch command
+####Remove 1 # from the above sbatch command####
 #######################################
 
 #SBATCH --nodes=1
